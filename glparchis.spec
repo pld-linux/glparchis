@@ -9,7 +9,7 @@ Source0:	http://dl.sourceforge.net/glparchis/%{name}-%{version}.tar.gz
 # Source0-md5:	fd42345bf9093c87b2105f41ec2bf30e
 URL:		http://glparchis.sourceforge.net/
 BuildRequires:	SDL-devel
-BuildRequires:	SDL-image-devel
+BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	SDL_ttf-devel
 Buildrequires:	autoconf
