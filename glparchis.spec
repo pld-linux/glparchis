@@ -15,6 +15,8 @@ BuildRequires:	SDL_mixer-devel
 BuildRequires:	SDL_ttf-devel
 Buildrequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	glut-devel
+BuildRequires:	libxml2-devel
 BuildRequires:	sed >= 4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
