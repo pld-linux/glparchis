@@ -15,6 +15,7 @@ BuildRequires:	SDL_mixer-devel
 BuildRequires:	SDL_ttf-devel
 Buildrequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	sed >= 4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -25,7 +26,7 @@ glParchis jest trójwymiarow± gr± w chiñczyka.
 
 %prep
 %setup -q
-sed -i 's@%{_prefix}/local@%{_prefix}@' src/textura.cpp
+%{__sed} -i 's@%{_prefix}/local@%{_prefix}@' src/textura.cpp
 
 %build
 %{__aclocal}
