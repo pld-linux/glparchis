@@ -1,5 +1,5 @@
 Summary:	A 3D game of Parcheesi
-Summary(pl):	Trójwymiarowa gra w chiñczyka
+Summary(pl.UTF-8):   TrÃ³jwymiarowa gra w chiÅ„czyka
 Name:		glparchis
 Version:	20061101
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 glParchis is a 3D game of Parcheesi.
 
-%description -l pl
-glParchis jest trójwymiarow± gr± w chiñczyka.
+%description -l pl.UTF-8
+glParchis jest trÃ³jwymiarowÄ… grÄ… w chiÅ„czyka.
 
 %prep
 %setup -q
