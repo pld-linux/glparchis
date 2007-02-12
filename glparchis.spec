@@ -1,5 +1,5 @@
 Summary:	A 3D game of Parcheesi
-Summary(pl.UTF-8):   Trójwymiarowa gra w chińczyka
+Summary(pl.UTF-8):	Trójwymiarowa gra w chińczyka
 Name:		glparchis
 Version:	20061101
 Release:	1
