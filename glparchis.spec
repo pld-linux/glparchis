@@ -14,7 +14,7 @@ BuildRequires:	SDL-devel
 BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_mixer-devel
 BuildRequires:	SDL_ttf-devel
-Buildrequires:	autoconf
+BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libxml2-devel
 BuildRequires:	sed >= 4.0
